@@ -114,13 +114,13 @@ public class HolidaysFinder {
 
     public boolean isHoliday() {
         return jewishCalendar.isRoshChodesh() ||
-        jewishCalendar.isPesach() ||
-        jewishCalendar.isShavuos() ||
-        jewishCalendar.isRoshHashana() ||
-        jewishCalendar.isYomKippur() ||
-        jewishCalendar.isSuccos() ||
-        jewishCalendar.isShminiAtzeres() ||
-        jewishCalendar.isSimchasTorah();
+                jewishCalendar.isPesach() ||
+                jewishCalendar.isShavuos() ||
+                jewishCalendar.isRoshHashana() ||
+                jewishCalendar.isYomKippur() ||
+                jewishCalendar.isSuccos() ||
+                jewishCalendar.isShminiAtzeres() ||
+                jewishCalendar.isSimchasTorah();
     }
 
     public Calendar calendarMinus(Calendar calendar, int type, int amount) {
