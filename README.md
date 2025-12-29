@@ -32,7 +32,6 @@
 
 ## 🛠 טכנולוגיות
 - Android SDK 34
-- Jetpack Compose
 - Material Design 3
 - ZmanimAPI
 - Google Play Services
